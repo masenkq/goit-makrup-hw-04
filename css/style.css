@@ -402,17 +402,32 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /*color: #434455;*/
-    color: #f4f4fd;
+    color: #434455;
+
     padding: 40px 32px;
     width: calc((100% - 48px) / 3);
+
+}
+
+.portfolio-modal {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     position: absolute;
+    color: #f4f4fd;
     top: 0;
     height: 100%;
     width: 100%;
     background-color: #4d5ae5;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-text:hover {
+    transform: translateY(0%);
+    /*При ховері на елемент списку змінюється стиль transform для параграфа,
+            що знаходиться в контейнері з картинкою. Нове значення якого становить 
+            transform: translateY(0*/
 }
 
 .portfolio-items {
@@ -424,10 +439,7 @@ ol {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
-    /*При ховері на елемент списку змінюється стиль transform для параграфа,
-        що знаходиться в контейнері з картинкою. Нове значення якого становить 
-        transform: translateY(0%);*/
+
 }
 
 
