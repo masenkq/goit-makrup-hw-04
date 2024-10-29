@@ -23,6 +23,11 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    /* що встановлює вирівнювання елементів у 
+    поперечному напрямку вздовж головної осі
+     контейнера відносно базової лінії тексту першого рядка кожного елемента*/
 }
 
 .visually-hidden {
