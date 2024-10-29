@@ -319,8 +319,7 @@ ol {
     justify-content: center;
     /*для вирівнювання іконки по горизонталі*/
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    outline: none;
-    /* Видаляє рамку при фокусі */
+
 }
 
 .team-social-link:hover,
@@ -403,18 +402,41 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /*color: #434455;*/
+    color: #f4f4fd;
+    padding: 40px 32px;
     width: calc((100% - 48px) / 3);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-items {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.portfolio-items:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+    /*При ховері на елемент списку змінюється стиль transform для параграфа,
+        що знаходиться в контейнері з картинкою. Нове значення якого становить 
+        transform: translateY(0%);*/
+}
+
 
 .portfolio-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    position: relative;
+    overflow: hidden;
 
 }
 
