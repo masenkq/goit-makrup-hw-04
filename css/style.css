@@ -144,7 +144,7 @@ ol {
     background-color: #2e2f42;
     /*для реалізації фонового зображення з затемненням (багатошаровий фон з градієнтом)*/
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
-    width: 1440px;
+    max-width: 1440px;
     /*для визначення ширини секції*/
     height: 600px;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ ol {
     /*можна використовувати аналог padding: 188px 0 188px або padding-top: 188px; та padding-bottom: 188px;*/
 }
 
-.Strategy-icon {
+.strategy-icon {
     display: flex;
     /*для подальшої можливості зміни розташування елемента*/
     align-items: center;
