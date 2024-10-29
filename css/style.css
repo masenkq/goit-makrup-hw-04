@@ -304,9 +304,6 @@ ol {
 .team-social-items {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .team-social-link {
@@ -321,10 +318,11 @@ ol {
     /*для вирівнювання іконки по вертикалі*/
     justify-content: center;
     /*для вирівнювання іконки по горизонталі*/
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-items:hover,
-.team-social-items:focus {
+.team-social-link:hover,
+.team-social-link:focus {
     background-color: #404bbf;
 }
 
