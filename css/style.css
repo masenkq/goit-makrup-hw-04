@@ -428,20 +428,16 @@ ol {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-container:hover {
-    transform: translateY(0%);
-    /*При ховері на елемент списку змінюється стиль transform для параграфа,
-            що знаходиться в контейнері з картинкою. Нове значення якого становить 
-            transform: translateY(0*/
-}
-
 .portfolio-items {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-items:hover .portfolio-text {
+.portfolio-items:hover {
     transform: translateY(0%);
+    /*При ховері на елемент списку змінюється стиль transform для параграфа,
+            що знаходиться в контейнері з картинкою. Нове значення якого становить 
+            transform: translateY(0*/
 }
 
 .portfolio-items:hover {
