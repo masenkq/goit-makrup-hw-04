@@ -330,10 +330,7 @@ ol {
 
 .team-social-link:hover,
 /* Зміна кольору при наведенні миші */
-.team-social-link:focus,
-/* Зміна кольору при фокусі (наприклад, клавіатурою) */
-.team-social-link:active {
-    /* Зміна кольору під час кліку */
+.team-social-link:focus {
     background-color: #404bbf;
 }
 
