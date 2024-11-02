@@ -407,16 +407,21 @@ ol {
 
 .portfolio-modal {
     font-size: 16px;
+    /* Визначення розміру шрифту */
     line-height: 1.5;
+    /* Простір між рядками */
     letter-spacing: 0.02em;
+    /* Відстань між літерами */
     position: absolute;
+    /* Позиціонування відносно батьківського елемента */
     color: #f4f4fd;
-    top: 0;
     /* Колір тексту */
+    top: 0;
+    /* Зміщення до верхньої межі контейнера */
     background-color: #4d5ae5;
     /* Фоновий колір */
     transform: translateY(100%);
-    /* Вихідний стан параграфа (схований) */
+    /* Зміщення елемента вздовж осі Y */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* Анімація переходу */
     padding: 40px 32px;
