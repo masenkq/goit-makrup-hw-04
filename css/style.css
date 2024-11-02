@@ -416,9 +416,8 @@ ol {
     letter-spacing: 0.02em;
     position: absolute;
     color: #f4f4fd;
-    /* Колір тексту */
     top: 0;
-    /* Верхня частина контейнера */
+    /* Колір тексту */
     background-color: #4d5ae5;
     /* Фоновий колір */
     transform: translateY(100%);
