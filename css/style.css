@@ -495,11 +495,17 @@ ol {
 
 .footer-social-text {
     font-weight: 500;
+    /* Жирність шрифту */
     font-size: 16px;
+    /* Розмір тексту */
     line-height: 1.5;
+    /* Простір між рядками */
     letter-spacing: 0.02em;
+    /* Відстань між літерами */
     color: #FFFFFF;
+    /* Колір тексту */
     margin-bottom: 16px;
+    /* Відступ знизу */
 }
 
 .footer-social-list {
