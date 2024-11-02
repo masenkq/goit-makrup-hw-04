@@ -326,10 +326,7 @@ ol {
 
 }
 
-.team-social-link:hover {
-    background-color: #404bbf;
-}
-
+.team-social-link:hover,
 .team-social-link:focus {
     background-color: #404bbf;
 }
@@ -397,7 +394,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-text {
@@ -405,9 +402,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 40px 32px;
-    width: calc((100% - 48px) / 3);
-
+    /* padding: 40px 32px;*/
 }
 
 .portfolio-modal {
